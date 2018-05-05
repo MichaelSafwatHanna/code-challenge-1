@@ -1,21 +1,25 @@
-# Simple Node Developer Challenge
+## Simple JS/Node Developer Challenge
 
 ### Goal
-Clone this repo and build a simple key/value store client using only core node API. Once you have finished the challenge email the completed zip or link to a git repo of your choice.
+Clone this repo and build a simple dictionary key/value store script using only core NodeAPI and ECMAScript 5 or 6.  
+Store the key/value dictionary using filesystem.
+The client should be a standalone terminal tool.
+Once you have finished the challenge email the completed zip or link to a git repo of your choice.
 
-### Store API
+### Store Commands
 
-`$ store add mykey myvalue`
+`$ node store.js add mykey myvalue`
 
-`$ store list`
+`$ node store.js list`
 
-`$ store get mykey`
+`$ node store.js get mykey`
 
-`$ store remove mykey`
+`$ node store.js remove mykey`
 
-`$ store clear`
+`$ node store.js clear`
 
 ### Bonus
 
 - Commit and track history in github repo
 - Add ability to deploy in Docker container
+- Instead of running `node store.js` alter the runtime so it can be run as `./store`.
