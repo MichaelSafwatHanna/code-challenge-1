@@ -4,7 +4,7 @@
 Clone this repo and build a simple dictionary key/value store script using only core NodeAPI and ECMAScript 5 or 6.  
 Store the key/value dictionary using filesystem.
 The client should be a standalone terminal tool.
-Once you have finished the challenge email the completed zip or link to a git repo of your choice.
+Commit and track your work history in a new GitLab repo. Once finished email the link to your repo.
 
 ### Store Commands
 
@@ -20,7 +20,6 @@ Once you have finished the challenge email the completed zip or link to a git re
 
 ### Bonus
 
-- Commit and track history in GitLab repo.
 - Write clean, modular and testable code.
 - Instead of running `node store.js` alter the runtime so it can be run as `./store`.
 - Add ability to deploy in Docker container.
