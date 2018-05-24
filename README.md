@@ -20,6 +20,8 @@ Once you have finished the challenge email the completed zip or link to a git re
 
 ### Bonus
 
-- Commit and track history in github repo
-- Add ability to deploy in Docker container
+- Commit and track history in github repo.
+- Write clean, modular and testable code.
 - Instead of running `node store.js` alter the runtime so it can be run as `./store`.
+- Add ability to deploy in Docker container.
+- Add GitLab compatible CI/CD to perform a server deploy.
